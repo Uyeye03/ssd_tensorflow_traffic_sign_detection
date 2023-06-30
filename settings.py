@@ -11,8 +11,8 @@ DEFAULT_BOXES = ((-0.5, -0.5, 0.5, 0.5), (0.2, 0.2, -0.2, -0.2), (-0.8, -0.2, 0.
 NUM_DEFAULT_BOXES = len(DEFAULT_BOXES)
 
 # Constants (TODO: Keep this updated as we go along)
-NUM_CLASSES = 3  # 2 signs + 1 background class
-NUM_CHANNELS = 1  # grayscale->1, RGB->3
+NUM_CLASSES = 22  # 21 signs + 1 background class
+NUM_CHANNELS = 3  # grayscale->1, RGB->3
 NUM_PRED_CONF = NUM_DEFAULT_BOXES * NUM_CLASSES  # number of class predictions per feature map cell
 NUM_PRED_LOC  = NUM_DEFAULT_BOXES * 4  # number of localization regression predictions per feature map cell
 
